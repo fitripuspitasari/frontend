@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.79.0">
+    <title> Kumpulan Event Music Java Jazz Indonesia </title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+    <link rel="shortcut icon" href="assets/img/icon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/img/icon.ico" type="image/x-icon">
+
+
+
+    <!-- Bootstrap core CSS -->
+<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-info">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <a id="logo-container" href="index.html" class="brand-logo white-text">
+              <img src="assets/img/note.png" alt="logo " style="height:40px;"></a>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item active">
+                  <a class="nav-link" aria-current="page" href="index.html#masthead"> Home </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html#event"> Event </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html#about">About</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+    <p></p>
+
+    <!-- Custom styles for this template -->
+    <link href="css/hey.css" rel="stylesheet">
+  </head>
+
+<hr class="featurette-divider">
+<div class="container">
+
+  <div class="row featurette" id="eventdetail">
+
+  </div>
+</div>
+
+<hr class="featurette-divider">
+<h5 align="center"><a href="index.html"> Back To Home </a></h5>
+
+<footer class="container">
+  <p  class="text-center">&copy; Kumpulan Event Music Java Jazz Indonesia &middot;</p>
+</footer>
+
+
+  <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script type="text/javascript" src="js/api.js"></script>
+  <script type="text/javascript" src="js/music.js"></script>
+
+  <script type="text/javascript">
+    document.addEventListener("DOMContentLoaded", function() {
+    var urlParams = new URLSearchParams(window.location.search);
+    var id = urlParams.get("id");
+    geteventsdetail(id);
+  });
+  </script>
+</body>
+</html>
