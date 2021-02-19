@@ -46,7 +46,7 @@ function geteventsdetail(event_id) {
         <br>
         <br>
          <div class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" >
-              <img src="..${pt.gambar_event}" alt="">
+              <img src="frontend${pt.gambar_event}" alt="">
          </div>
         </div>
 
