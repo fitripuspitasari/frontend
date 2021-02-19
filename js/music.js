@@ -14,7 +14,7 @@ function getEvents() {
           <h2> ${pa.nama_event} </h2>
           <p>Info event: ${pa.info_event} </p>
           <p> Tanggal / Tahun Diselenggarakan : 5 - 6 Maret 2005 </p>
-          <p><a class="btn btn-outline-info" href="../event.html?id=${pa.id_event}" role="button"> View Details &raquo;</a></p>
+          <p><a class="btn btn-outline-info" href="event.html?id=${pa.id_event}" role="button"> View Details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
 
 
