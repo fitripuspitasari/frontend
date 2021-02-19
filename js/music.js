@@ -9,7 +9,7 @@ function getEvents() {
       data.event.forEach(function(pa) {
         events += `
         <div class="col-lg-4">
-          <img src="..${pa.gambar_event}" class="img rounded-circle" width="140" height="140" alt="2005">
+          <img src="${pa.gambar_event}" class="img rounded-circle" width="140" height="140" alt="2005">
 
           <h2> ${pa.nama_event} </h2>
           <p>Info event: ${pa.info_event} </p>
